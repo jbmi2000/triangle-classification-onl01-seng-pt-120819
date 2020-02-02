@@ -35,8 +35,6 @@ class Triangle
         self.kind = :scalene
 
       end
-    else
-      raise TriangleError
     end
   end
 class TriangleError < StandardError
