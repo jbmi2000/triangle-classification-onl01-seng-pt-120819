@@ -18,7 +18,11 @@ class Triangle
     if (@triangle_sides.none? {|side| side <= 0}) &&
       (sum_one_two > @triangle_sides[2] || sum_one_three > @triangle_sides[1] || sum_two_three > @triangle_sides[0])
       return true
+    elsif 
+      !(@side_1<=0 || @side_2<=0 || @side_3<=0)
+      return true
     else
+      
       return false
     end
   end
