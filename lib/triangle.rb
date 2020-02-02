@@ -1,5 +1,4 @@
 class Triangle
-  attr_accessor :kind
   # write code here
   def initalize(side_1, side_2, side_3)
     @side_1 = side_1
@@ -23,7 +22,7 @@ class Triangle
     end
 
   end
-
+  
 end
 
 class TriangleError < StandardError
